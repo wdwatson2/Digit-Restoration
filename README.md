@@ -31,3 +31,5 @@ Follow these steps to set up the environment:
 1. Open a terminal or command prompt and navigate to the `flask_app` directory.
 2. Run the following command to begin the session `python app.py`.
 3. The click on one of the URL's to be brought to a webpage.
+
+![](img/Screenshot%202024-05-01%20091725.png)
