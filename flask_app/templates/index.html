@@ -1,0 +1,42 @@
+<style>
+    #canvas, #displayedImage {
+        width: 280px; /* Width of the canvas and the image */
+        height: 280px; /* Height of the canvas and the image */
+        background-color: black; /* Optional: to match the canvas background */
+        display: block; /* Ensures that the canvas and image block align nicely on the page */
+        margin-top: 20px; /* Adds some space above the canvas and image */
+    }
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draw Digit</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #canvas {
+            width: 280px;  /* Display size */
+            height: 280px;
+            background-color: black; /* Ensure the canvas background is black */
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="28" height="28"></canvas> <!-- Actual drawing area is still 28x28 pixels -->
+    <button onclick="clearCanvas()">Clear</button>
+
+    <button onclick="submitDrawing()">Submit</button>
+    <img id="displayedImage" alt="Returned Image" style="display:block; margin-top:20px;">
+    <script src="../static/script.js"></script> <!-- Make sure the path to the script is correct -->
+</body>
+</html>
+
+
