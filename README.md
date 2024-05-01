@@ -32,4 +32,5 @@ Follow these steps to set up the environment:
 2. Run the following command to begin the session `python app.py`.
 3. The click on one of the URL's to be brought to a webpage.
 
-![](img/Screenshot%202024-05-01%20091725.png)
+   
+<img src="img/Screenshot%202024-05-01%20091725.png" width="650">
