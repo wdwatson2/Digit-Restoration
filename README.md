@@ -3,7 +3,7 @@
 
 This is a repository to document my experiments with an image restoration project. 
 
-The motivation is to create model that can generally restore a warped handwritten digit back to some standard. Its similar to an image registration problem, but no reference image is used to align the moving image with. I chose to create the training data through a constrained homography transformation, and then the network is forced to output 9 numbers that correspond to a predicted homography transformation. The network is trained on the creteria of the MSE between the 9 entries from the actual homography matrix and the 9 entries of the predicted homography matrix. 
+The motivation is to create model that can generally restore a warped handwritten digit back to some standard. Its similar to an image registration problem, but no reference image is used to align the moving image with. I chose to create the training data through a constrained homography transformation, and then the network is forced to output 9 numbers that correspond to a predicted homography transformation. The network is trained on the MSE between the 9 entries from the actual homography matrix and the 9 entries of the predicted homography matrix. 
 
 ## Environment Setup
 
